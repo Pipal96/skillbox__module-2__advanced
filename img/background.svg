@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 550 275"><path fill="#FFF6ED" d="M550 0A275 275 0 110 0h550z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="550px"
+     height="275" fill="none" viewBox="0 0 550 275">
+    <path fill="#FFF6ED" d="M550 0A275 275 0 110 0h550z"/>
+</svg>

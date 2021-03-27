@@ -91,6 +91,7 @@ ul, ol {
 .integration__flex-container {
     display: flex;
     justify-content: space-between;
+    min-height: 323px;
 }
 
 .integration__wrapper-left-block {
@@ -102,10 +103,10 @@ ul, ol {
     flex: 0 0 50%;
     margin: 24px 0;
     padding-right: 58px;
-    padding-bottom: 15px;
-    background-image: url("img/background.svg");
+    padding-bottom: 36px;
+    background-image: url("../img/background.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 550px 275px;
     display: flex;
     justify-content: flex-end;
 }
@@ -119,10 +120,12 @@ ul, ol {
     width: 70px;
     height: 70px;
     align-self: center;
+    margin-bottom: 31px;
 }
 
 .icon-list__item:nth-child(even) {
     align-self: flex-end;
+    margin-bottom: 0;
 }
 
 .icon-list__item:not(:last-child) {
@@ -131,5 +134,6 @@ ul, ol {
 
 .integration {
     max-width: 1440px;
+    min-height: 323px;
     margin: 0 auto;
 }
