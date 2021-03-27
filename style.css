@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --main-background: #FFF6ED;
+    --keyword: #FF7A00;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul, ol {
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 65px 58px 26px;
+}
+
+.how-it-work {
+    background-color: var(--main-background);
+    width: 100%;
+    min-height: 636px;
+}
+
+
+.list-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card {
+    width: 375px;
+    min-height: 440px;
+}
+
+.card__picture {
+    width: 375px;
+    height: 288px;
+}
+
+.how-it-work__headline {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.card__headline {
+    font-size: 1.875rem;
+    line-height: 41px;
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+
+.card__description {
+    font-size: 1rem;
+    line-height: 28px;
+    margin-top: 6px;
+}
+
+.card__keyword {
+    color: var(--keyword);
+}
+
+.integration__headline {
+    font-size: 2.5rem;
+    line-height: 54px;
+    margin: 0;
+}
+
+.integration__description {
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.integration__left-block {
+    max-width: 592px;
+    box-sizing: content-box;
+}
+
+.integration__flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.integration__wrapper-left-block {
+    padding: 61px 0 26px 58px;
+    flex: 0 0 50%
+}
+
+.integration__right-block {
+    flex: 0 0 50%;
+    margin: 24px 0;
+    padding-right: 58px;
+    padding-bottom: 15px;
+    background-image: url("img/background.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-list {
+    display: flex;
+    height: 100%;
+}
+
+.icon-list__item, .icon-list__svg {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+}
+
+.icon-list__item:nth-child(even) {
+    align-self: flex-end;
+}
+
+.icon-list__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.integration {
+    max-width: 1440px;
+    margin: 0 auto;
+}

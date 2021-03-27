@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <section class="how-it-work">
+        <div class="wrapper">
+            <h2 class="headline how-it-work__headline">Как это работает ?</h2>
+
+            <ul class="list-card">
+                <li class="card">
+                    <article>
+                        <svg class="card__picture" viewBox="0 0 375 288">
+                            <use xlink:href="sprites.svg#first-picture"></use>
+                        </svg>
+                        <h3 class="card__headline">Утренний <span class="card__keyword">кофе</span></h3>
+                        <p class="card__description">
+                            Кофеин воздействует на центральную нервную систему как природный “будильник”. Поэтому мы
+                            быстрее просыпаемся.
+                        </p>
+                    </article>
+                </li>
+
+                <li class="card">
+                    <article>
+                        <svg class="card__picture" viewBox="0 0 375 288">
+                            <use xlink:href="sprites.svg#second-picture"></use>
+                        </svg>
+                        <h3 class="card__headline">Час <span class="card__keyword">медитации</span></h3>
+                        <p class="card__description">
+                            После практик оба полушария мозга начинают работать сбалансированно — это привносит порядок
+                            в вашу жизнь.
+                        </p>
+                    </article>
+                </li>
+
+                <li class="card">
+                    <article>
+                        <svg class="card__picture" viewBox="0 0 375 288">
+                            <use xlink:href="sprites.svg#third-picture"></use>
+                        </svg>
+                        <h3 class="card__headline">Вперёд к <span class="card__keyword">свершениям!</span></h3>
+                        <p class="card__description">
+                            Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и вовремя
+                            останавливаться.
+                        </p>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="integration">
+        <div class="integration__flex-container">
+            <div class="integration__left-block integration__wrapper-left-block">
+                <h2 class="integration__headline">Интеграция со сторонними <br> сервисами</h2>
+                <p class="integration__description">
+                    Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на протяжении всего
+                    рабочего дня, контролировать свои задачи и не опоздать на запланированные встречи.
+                </p>
+            </div>
+
+            <div class="integration__right-block">
+                <ul class="icon-list">
+                    <li class="icon-list__item">
+                        <svg class="icon-list__svg">
+                            <use xlink:href="sprites.svg#facebook"></use>
+                        </svg>
+                    </li>
+                    <li class="icon-list__item">
+                        <svg class="icon-list__svg">
+                            <use xlink:href="sprites.svg#google-plus"></use>
+                        </svg>
+                    </li>
+                    <li class="icon-list__item">
+                        <svg class="icon-list__svg">
+                            <use xlink:href="sprites.svg#trello"></use>
+                        </svg>
+                    </li>
+
+                    <li class="icon-list__item">
+                        <svg class="icon-list__svg">
+                            <use xlink:href="sprites.svg#trello-blue"></use>
+                        </svg>
+                    </li>
+
+                    <li class="icon-list__item">
+                        <svg class="icon-list__svg">
+                            <use xlink:href="sprites.svg#work-lio"></use>
+                        </svg>
+                    </li>
+
+                    <li class="icon-list__item">
+                        <svg class="icon-list__svg">
+                            <use xlink:href="sprites.svg#slack"></use>
+                        </svg>
+                    </li>
+                    <li class="icon-list__item">
+                        <svg class="icon-list__svg">
+                            <use xlink:href="sprites.svg#dropbox"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</main>
+</body>
+</html>

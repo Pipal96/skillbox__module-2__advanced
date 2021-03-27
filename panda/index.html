@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            background-color: #000;
+        }
+
+        svg {
+            width: 400px;
+            height: 400px;
+
+            margin: 0 auto;
+            display: block;
+        }
+
+        .left-ear {
+            transform: rotate(-39deg);
+        }
+
+        .right-ear {
+            transform: rotate(39deg);
+        }
+    </style>
+</head>
+<body>
+
+<svg viewBox="0 0 200 200">
+
+    <g class="left-ear">
+        <ellipse cx="23" cy="47" rx="25" ry="18" fill="gray"></ellipse>
+        <circle cx="23" cy="49" r="10" fill="#000"></circle>
+    </g>
+
+    <g class="right-ear">
+        <ellipse cx="132" cy="-78" rx="25" ry="18" fill="gray"></ellipse>
+        <circle cx="132" cy="-76" r="10" fill="#000"></circle>
+    </g>
+
+
+    <!--
+    r - радиус
+    cx - положение по оси x
+    cy - положение по оси y
+    -->
+    <circle r="70" cx="100" cy="70" fill="#fff"></circle>
+    <!--
+    rx - радиус по по оси x
+    ry - радиус по по оси y
+    -->
+    <ellipse cx="133" cy="74" rx="15" ry="19" fill="gray"></ellipse>
+    <ellipse cx="66" cy="74" rx="15" ry="19" fill="gray"></ellipse>
+    <ellipse cx="100" cy="92" rx="10" ry="7"></ellipse>
+    <circle cx="67" cy="71" r="7" fill="#000"></circle>
+    <circle cx="133" cy="71" r="7" fill="#000"></circle>
+    <circle cx="131" cy="68" r="3" fill="#fff"></circle>
+    <circle cx="65" cy="68" r="3" fill="#fff"></circle>
+</svg>
+
+</body>
+</html>
